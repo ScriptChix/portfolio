@@ -1,0 +1,565 @@
+﻿
+*{
+    
+    margin:0;
+}
+body {
+    background-image: url('vector-JUL-2020-32.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-bottom: 0px;
+    font-family: 'Palatino Linotype', serif;
+    margin-bottom: 0px;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 45%;
+    float: right;
+    justify-content: center;
+    height:35px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    /*border: 5px solid yellow;*/ /*for testing*/
+    
+}
+.logo-text {
+    display:inline-flex;
+    /*border: 5px solid cyan;*/ /*for testing*/
+    justify-content: center;
+    color: #b0b9d6;
+    text-decoration:underline;
+    margin-top: 0px;
+}
+div.abtMe-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    color: #F5F5F5;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.abtTitle {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    /*border: 1px solid red;/*for testing*/
+    width: 100%;
+    float: left;
+}
+.abt-cont {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-family: inherit;
+    margin-bottom: 35px;
+    padding: 15px;
+    background-color: #080808;
+    border: 2px solid #00D8B4;
+    /* border:1px solid blue;*/ /*for testing*/
+}
+.previewCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    /*border: 2px solid blue;*//*for testing*/
+    align-content:space-around;
+    margin-top: 0px;
+    padding: 0px;
+}
+div.card {
+    border: 3px solid #00D8B4;
+    display: inline;
+    background-color: #080808;
+    justify-items: center;
+    margin: 1px;
+    width: 25%;
+    text-align: center;
+    line-height: 25px;
+    padding: 4px;
+    color: white;
+}
+.footContact {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+    bottom: 5px;
+    padding-top: 0px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding-bottom: 0px;
+    background-color: #080808;
+    color: white;
+    align-content: center;
+    /*border: 3px solid blue;*/ /*for testing*/
+}
+.foot-cont {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    padding-right:25px;
+    font-size:25px;
+    padding:1px;
+}
+.contLink {
+    text-decoration:none;
+    font-weight:600;
+    color:white;
+
+}
+.contLink:hover{
+    color:darkslateblue;
+}
+.contLink:active{
+    text-decoration:underline;
+    color:bisque;
+}
+
+
+/*.tooltip{
+    position:relative;
+    display:inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltipText{
+    visibility:hidden;
+    width:120px;
+    background-color:black;
+    color:#fff;
+    text-align:center;
+    padding: 5px 0;
+    border-radius:6px;
+    position:absolute;
+    z-index:1;
+}
+.tooltip:hover .tooltipText{
+    visibility:visible;
+}
+
+
+/*skills & teachers page skilSec{
+    background-color:#79b0cb;
+    padding:5px;
+
+ }
+.skilHead {
+    text-align: center;
+    text-decoration: underline;
+    color:#0b4d6c;
+}
+.EchSkil {
+    font-size:17px;
+    padding-left:2px;
+    font-weight:500;
+    color:#ffd968;
+
+}
+.Sklcontainer {
+    width: 50%;
+    background-color: #ffe493;
+    border-radius: 10px;
+    border: 1px solid #477191;
+}
+.skills {
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom:1px;
+    color: #ffa268;
+    font-size:14px;
+    padding-right:5px;
+}
+.html{width:90%; 
+      background-color:#10a246;
+      border-radius:10px;
+}
+.css {
+    width: 90%;
+    background-color: #10a246;
+    border-radius: 10px;
+}
+.js {
+    width: 80%;
+    background-color: #10a246;
+    border-radius: 10px;
+}
+.java {
+    width: 50%;
+    background-color: #10a246;
+    border-radius: 10px;
+}
+.sql {
+    width: 20%;
+    background-color: #10a246;
+    border-radius: 10px;
+}
+/*...etc.
+.teachSec {
+    background-color: #79b0cb;
+}
+.MediaHead{
+    text-align:center;
+    text-decoration: underline;
+    color:#0b4d6c;
+}
+.TeachPlace {
+    background-color:#f1c542;/*change for color scheme
+    list-style-type: none;
+    text-decoration:none;
+    display: block;
+    font-size:18px;
+    border:1px solid black;/*for styling. change for color scheme*/
+    /*border:2px solid black;/*for testing
+    color:#ab480a;
+    text-align:center;
+    font-weight:bold;
+    width:33.33%;
+    margin-bottom:3px;
+    box-shadow:1px 1px 10px 1px #df6316 inset;
+    }
+    .TeachPlace:hover {
+        box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.4);
+        /*change rgba color for proper color scheme
+    }
+/*contact and gallery page*/
+/*have to come back and maybe make adjustments 
+    after javascript has been added
+.Galla {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+    background-color: #79b0cb;
+    /* border: 5px solid red;/*for testing purposes
+    border-bottom: 2px dashed #077c33; /* (for styling)
+}
+
+.mySlides {
+    /*display: none;
+    background-image: url("https://i.ytimg.com/vi/L2WgJgAULo8/maxresdefault.jpg");
+    height: 250px;
+    width: 75%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    .cursor{
+    cursor:pointer;
+}
+.prev, .next {
+    cursor: pointer;
+    background-color: rgba(121,176,203,0.3);
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color:#0b4d6c;
+    border:1px dotted #0b4d6c;
+    /*testing
+    /*testing
+   font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    /*testing
+   /*testing
+
+}
+.prev:hover, .next:hover{
+    background-color:rgba(121,176,203,0.6);
+    /*testing
+    /*testing
+}
+.numbertext{
+    color:black;
+    font-size:12px;
+    padding:8px 12px;
+    position:absolute;
+    top:0;
+    font-weight:600;
+}
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 10px, 0px, 10px, 0px;
+    /*border:5px solid blue; /*for testing only
+    color: white;
+    margin: 15px;
+    box-shadow: -10px 10px 10px #4fc17a;
+    background-color: rgba(47,118,153,0.4);
+}
+p#caption{
+    text-align:center;
+    color:white;
+    font-family:inherit;
+}
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.column{
+    float:left;
+    width:16.66%;
+}
+.demo{
+    opacity:0.6;
+}
+.active, .demo:hover{
+    opacity:1;
+}
+/*end of adjustment for javascript*/
+/*start of main project page
+.Welcome {
+    font-family: inherit;
+    font-size:17px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    margin-top: 1px;
+    margin-bottom:1px;
+    border-bottom:10px groove #dfad16;/*for styling.
+        change for color scheme
+}
+.projWlcm {
+    margin: 15px;
+    box-shadow: -10px 10px 10px #4fc17a;
+    background-color: rgba(47,118,153,0.4);
+   /*fix color scheme
+    color: white;
+    height: inherit;
+    font-family: inherit;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/*javascript adjustments
+.showBox {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 0px;
+    /* border: 15px solid red; /*for testing purposes
+    border: 15px groove #30af5f; /*(for styling)
+}
+
+.mySlide {
+    width: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0,0,0,0;
+    /*height:400px;
+    overflow: hidden;
+    /* border: 3px dotted yellow;/*testing
+}
+
+.imgDis {
+    /*height: 400px;*/ /* height:auto;/*testing zone
+    width: 60%;
+    float: left;
+    height: 400px;
+}
+
+.projDesc {
+    /*border-image:url(https://i.ytimg.com/vi/L2WgJgAULo8/maxresdefault.jpg) 50 round;
+    background-color: rgba(255,217,104,0.4);
+    height: inherit;
+    width: 40%;
+    float: right;
+    text-align: center;
+    color: #ab480a;
+    /*border:3px dotted pink;*/ /*testing purposes
+}
+/*end javascript adjustments*/
+/*
+
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+    progress::-webkit-progress-bar {
+        background: #efefef;
+    }
+
+    progress::-webkit-progress-value {
+        background: #3fb6b2;
+    }
+
+    progress::-moz-progress-bar {
+        color: #3fb6b2;
+        background: #efefef;
+    }
+
+/*
+
+
+
+
+
+
+
+
+    */
+
+/*
+
+@media screen and (max-width:600px) {
+    .navbar a:not(:first-child){display:none;}
+    .navbar a.icon{
+        position:absolute;
+        float:right;
+        display:block;
+        background-color:black;
+    }
+}
+@media screen and (max-width: 600px){
+        .DDResp {
+        position: relative;
+            text-align:left;
+            /*added in after this point. testing only
+            display:block;
+            
+            
+            
+    }
+            .navbar .icon {
+                position: absolute;
+                 float: right;
+                right: 0; 
+                top: 0;
+                background-color: red;
+                 margin: 2px;
+                padding: 10px;
+                border-radius:10px;
+            }
+            .DDResp a {
+                display: block;
+ color:white;
+                text-align: left;
+                background-color: blue;
+                padding: 10px;
+                border-bottom:5px;
+                border-radius:10px;
+                
+                
+                
+            }
+}
+
+
+
+/*when the screen is less than 600pxels wide. hide all links, except for the first one ("home"). 
+    show the link that contains should open and close the topnav (.icon)
+
+@media screen and (max-width:600px) {
+    .topnav a:not(:first-child) {display:none;}
+    .topnav a.icon {/*tells the icon how to act before the onclick JS script has been run
+        display:block;
+        float:right;
+    }
+}
+/*the responsive class is added to the topnav with javascript when the user clicks on the icon. 
+    this class makes the topnav look good on small screens (display the links vertically instead of horizontally)
+@media screen and (max-width:600px) {
+    .responsive {
+        position: relative;
+        background-color: black;
+        color: greenyellow;
+        display: block;
+        text-align:left;
+        border-radius: 10px;
+        padding: 14px 16px;
+    }
+    .responsive a.icon {
+        /*position: absolute;
+        right:0;
+        top:0;
+        float:right;
+        display:block;
+       
+    }
+   /* .responsive {
+        background-color: black;
+        display: block;
+        float: none;
+        border-radius: 10px;
+    }
+
+        .responsive a {
+            background-color: black;
+            color: greenyellow;
+            display: block;
+            float: none;
+            text-align: left;
+            border-radius: 10px;
+        }
+
+    .respoonsive a:hover {
+        background-color: aqua;
+        color: white;
+    }
+
+    .responsive a:active {
+        background-color: deeppink;
+        color: white;
+    }
+
+   /* .responsive a{
+        display:block;
+        text-align:left;
+        /*background-color:aqua;
+        
+    }
+}
+
+
+
+/*media queries
+
+@media only screen and (max-width: 750px){
+    header {
+        position:relative;
+    }
+ 
+
+    .showing {
+        max-height:100em;
+    }
+  
+
+}*/
+
+
+
+ 
